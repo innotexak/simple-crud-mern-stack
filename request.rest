@@ -1,0 +1,48 @@
+
+###
+POST http://localhost:5000/post 
+Content-Type: application/json
+
+{
+    "title":"THis is the post title",
+    "content":"WHO’s work is founded on the principle that all people, everywhere, should enjoy the highest standard of health. We seek talented professionals looking to contribute to this important mission as members of our international workforce. WHO offers a dynamic work environment, opportunities for professional development and a competitive pay and benefits package. We are committed to achieving a diverse, multicultural and gender balanced workforce with broad representation from our Member States.",
+    "email":"innotexak@gmail.com",
+    "like":0
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email":"innotexak@yahoo.com",
+    "password":"dreamworks1"
+}
+
+###
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "email":"akuhinnocent2016@gmail.com",
+    "password":"dre123",
+    "confirmPassword":"dre123",
+    "firstName":"Innocent",
+    "lastName":"Akuh",
+}
+
+###
+GET http://localhost:5000/blog
+Content-Type: application/json
+
+
+###
+POST http://localhost:5000/likes
+
+{
+    "like":1,
+    "email":"akuhinnocent2016@gmail.com"
+}
+
+###
+GET http://localhost:5000/profile/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImFrdWhpbm5vY2VudDIwMTZAZ21haWwuY29tIiwiaWF0IjoxNjM5NjcxMjkxLCJleHAiOjE2Mzk2Nzg0OTF9.I_cgk0pDZdACvVRVE5cyBQ_TRqJ1urumFx54EqD8np4

@@ -1,0 +1,29 @@
+{
+  "name": "product",
+  "version": "1.0.0",
+  "description": "This app is meant to understand the connectivity between react, node and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "React",
+    "Javascript",
+    "Node",
+    "Mongo"
+  ],
+  "author": "Akuh Innocent",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.0",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "password-hash": "^1.2.2"
+  }
+}
