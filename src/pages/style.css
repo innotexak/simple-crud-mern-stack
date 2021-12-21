@@ -1,0 +1,178 @@
+.form-control{
+    width:100%;
+    height:100%;
+    padding:10px 0px;
+    text-align: left;
+    position: relative;
+
+}
+
+.form-control input{
+    width:100%;
+    padding:6px;
+    /* border-bottom:2px solid rgb(40,95,55); */
+    height:40px;
+}
+.form-control textarea{
+    width:100%;
+    padding:6px;
+    height:120px;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(40,95,55);
+    /* font-weight:bolder; */
+}
+
+button[type='submit']{
+    width:100px;
+    height:40px;
+    background:rgb(40,95,55);
+    color:#fff;
+    text-align: center;
+    border:none;
+    
+}
+
+.socials{
+    width:100%;
+    text-align: center;
+    display:flex;
+    justify-content:space-around;
+    margin:0px auto;
+    /* background:red; */
+}
+
+.link{
+    width:150px;
+    height:30px;
+    border:none;
+    color:white;
+    background:coral;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius:14px;
+}
+
+.error{
+color: red;
+font-size:12px;
+display: block; 
+}
+
+.socialbg{
+    width:30vw !important;
+    /* border:2px solid blue !important; */
+}
+
+.email{
+    border-radius: 40px;
+    padding:50px;
+    height:200px;
+    
+}
+
+.email:hover{
+    border-left:10px solid rgb(40,95,55);
+}
+.email-btn{
+    position:absolute;
+    top:10px;
+    right:0px;
+    border:2px solid rgb(40,95,55);
+    border-radius:20px;
+    height:400px;
+}
+
+.email-btn:hover{
+    background:#fff;
+    color:rgb(40,95,55);
+    border:2px solid rgb(40,95,55);
+}
+
+.btn{
+    border-radius:4px;
+    border:2px solid rgb(40,95,55);
+    margin-top:1rem;
+}
+
+.btn:hover{
+    color:rgb(40,95,55);
+    background:white;
+    border:2px solid rgb(40,95,55);
+}
+
+
+
+@media(max-width:960px){
+    .socials{
+        flex-direction:column;
+        justify-content: space-around;
+        height:120px;
+        margin-bottom:1rem;
+    }
+
+    .socialbg{
+        width:50vw !important;
+    }
+}
+
+.container{
+    width:60%;
+    height:auto;
+    /* background:greenyellow; */
+    border:1px solid #ecc;
+    margin:4rem auto;
+    padding:20px;
+}
+
+.single-post{
+    width:100%;
+    margin:2rem auto;
+    padding:10px;
+
+}
+
+.title{
+    color:rgb(190, 155, 155);
+    font-size:16px;
+}
+.single-post h4{
+    padding-top:10px;
+}
+
+
+.logout{
+    color:red;
+    cursor:pointer;
+    padding-left:10px;
+
+}
+
+.btn-group{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom:1px solid #ecc;
+    padding-bottom:10px;
+    padding-top:15px;
+}
+.btn-group p{
+    font-size:24px;
+    padding:2px 0.5rem;
+}
+.btn-group .like{
+    color: blue;
+    font-size:24px;
+    display:flex;
+    align-items: center;
+}
+
+.btn-group .dislike{
+    color:red;
+    font-size:24px;
+    display:flex;
+    align-items: center;
+}
